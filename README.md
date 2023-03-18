@@ -15,21 +15,27 @@ An integral part of having reusable code is having a sensible repository structu
 - Folder layout:
 ```bash
 customer_segmentation
-├── docs
-│   ├── make.bat
-│   ├── Makefile
-│   └── source
-│       ├── conf.py
-│       └── index.rst
 ├── src
+│   └── static
+│       └── images
+│         └── chatbox-icon.svg
+│       └── app.js
+|       └── style.css
+│   └── templates
+│       └── index.html
 │   └── preprocess
 │       └── __init__.py
 |       └── preprocess.py
+|       └── nltk_utls.py
+|       └── utils.py
 |   └── train
 │       └── __init__.py
 │       └── train.py
 |       └── models.py
 |   └── Config.py
+|   └── app.py
+|   └── gui_app.py
+|   └── chat.py
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
