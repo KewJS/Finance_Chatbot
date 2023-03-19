@@ -14,13 +14,21 @@ class Config(object):
     QDEBUG = True
     
     FILES = dict(
-        DATA_LOCAL_DIR  = os.path.join(base_path, "data"),
-        RAW_DATA_DIR    = os.path.join(base_path, "data", "raw"),
-        PREPROCESS_DIR  = os.path.join(base_path, "data", "preprocess"),
-        MODEL_DATA_DIR  = os.path.join(base_path, "data", "models"),
+        DATA_LOCAL_DIR      = os.path.join(base_path, "data"),
+        RAW_DATA_DIR        = os.path.join(base_path, "data", "raw"),
+        PREPROCESS_DIR      = os.path.join(base_path, "data", "preprocess"),
+        MODEL_DATA_DIR      = os.path.join(base_path, "data", "models"),
+        CORNELL_MOVIE_DIR   = os.path.join(base_path, "data", "raw", "cornell movie-dialogs corpus"),
         
-        RAW_INTENTS_FILE          = "intents",
+        RAW_INTENTS_FILE    = "intents",
+        RAW_CORNELL_CONV    = "movie_conversations",
+        RAW_CORNELL_LINES   = "movie_lines",
         
+        TRAIN_INTENTS_FILE  = "X_train",
+        TEST_INTENTS_FILE   = "X_test",
+        ALL_WORDS_LIST      = "all_words_list",
+        TAGS_LIST           = "tags_list",
+        XY_LIST             = "xy_list",
         
     )
 
@@ -30,6 +38,7 @@ class Config(object):
         NLTK_STOPWORDS      = stopwords.words("english"),
         KROVERTZ_STEMMER    = Stemmer(),
         LEMMATIZER          = WordNetLemmatizer(),
+        IGNORE_CHARACTERS   = ["?", "!", ".", ",", ":"],
     )
     
     

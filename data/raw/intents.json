@@ -11,7 +11,12 @@
         },
         {
             "tag": "goodbye",
-            "patterns": ["Bye", "See you later", "Goodbye"],
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Au revoir"
+            ],
             "responses": [
                 "See you later, thanks for visiting",
                 "Have a nice day",
@@ -24,35 +29,104 @@
             "responses": ["Happy to help!", "Any time!", "My pleasure"]
         },
         {
-            "tag": "items",
-            "patterns": ["Which items do you have?", "What kinds of items are there?", "What do you sell?"],
-            "responses": [
-                "We sell coffee and tea",
-                "We have coffee and tea"
-            ]
-        },
-        {
             "tag": "payments",
-            "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Can I pay with Paypal?", "Are you cash only?"],
+            "patterns": [
+                "Payment",
+                "What are the payments that accepted in RAKbank?",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypal?", "Can we pay with Apple Pay or Samsung Pay?"
+            ],
             "responses": [
-                "We accept VISA, Mastercard and Paypal",
+                "We accept all kind of payments, from VISA, Credit Card, Mastercard, Paypal and electronic pay like Apple or Samsung pay",
                 "We accept most major credit cards, and Paypal"
             ]
         },
         {
             "tag": "delivery",
-            "patterns": ["How long does delivery take?", "How long does shipping take?", "When do I get my delivery?"],
+            "patterns": [
+                "How long does delivery take?",
+                "How long does shipping take?", "When do I get my delivery?"
+            ],
             "responses": [
-                "Delivery takes 2-4 days",
-                "Shipping takes 2-4 days"
+                "Thank you on asking this, from our current company policy, the delivery takes 2-4 days to arrive at your current registered location.",
+                "Thank you on asking this, from our current company policy, the shipping takes 5-7 days. We will deliver to your location once the parcel at our designated branch."
             ]
         },
         {
             "tag": "funny",
-            "patterns": ["Tell me a joke!", "Tell me something funny!", "Do you know a joke?"],
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!", "Do you know a joke?"
+            ],
             "responses": [
                 "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
                 "What did the buffalo say when his son left for college? Bison."
+            ]
+        },
+        {
+            "tag": "credit card",
+            "patterns": [
+                "Credit card",
+                "Is there credit card that fit my current purpose?",
+                "I want to ask more information on credit card.",
+                "I want to know more about credit card services in RAKbank.",
+                "Can you give me some context about credit card types in RAKbank?", "How many credit cards do RAKbank has?"
+            ],
+            "responses": [
+                "We have multiple credit cards for customers, including Red Visa Card, Titanium Card, Platinum Card, Emirates Skyward Card. Which one your would be interested in?",
+                "These are the information of Red Visa Card, it is free for life with up to 1.5% cashback on all spends. It also has free international remittances every month.",
+                "Titanium credit card, our cashback king card, which has 5% cashback on all supermarket & dining spends worldwide. There are no annual fee for this as well. If you use it for Buy Now and Pay Later, there are 0% easy payment plan with it."
+            ]
+        },
+        {
+            "tag": "personal loan",
+            "patterns": [
+                "Personal loan",
+                "I want to ask about personal loan service in RAKbank?",
+                "I want to ask more information on personal loan.",
+                "I want to know more about personal loan in RAKbank.",
+                "Can you give me some context about personal loan in RAKbank?"
+            ],
+            "responses": [
+                "We provide flexible and dynamic personal loan that has flexible repayment of up to 48 months for expatriats and UAE nationals, with 60 months repayment plan for Armed Forces Staff. Remember, you don't need to maintain a minimum balance in your RAKloan account. Life insurance is available at a nominal cost. Here are some of the customer obligations, that you need to oblige to after acquire RAKbank personal loan service, you need to pay all installments and other amounts due on the due dates without delay. You also need review all other terms & conditions set out in the application form in detail. Regularly check our website (www.rakbank.ae) for updates. Besides, remember to notify the Bank in writing if there is a change in your employment or income details, contact details, residential status, identification details, financial details or any other material information as declared in the application form. You can also notify the Bank in writing if you wish to prepay your Loan prior to its maturity",
+                "If you are already a RAKbank customer, with just after 6 months of RAKloan repayments, you can apply for one month of deferred payment. After 1 year of RAKloan repayments, you can top up your RAKloan to the original amount.",
+                "Currently, there is a personal loan offer bonanza from RAKbank, where there will be 0% processing fees on personal loan starting from 15th March until 30th April 2023. So, what are you waiting for? Apply fast!"
+            ]
+        },
+        {
+            "tag": "personal loan application",
+            "patterns": [
+                "Personal loan application",
+                "I want to ask about process of applying to personal loan service in RAKbank?",
+                "I want to ask more information on personal loan application process.",
+                "I want to know more about personal loan application process and requirements in RAKbank.",
+                "Can you give me some context about personal loan application and requirements in RAKbank?", "What are the perks of applying personal loan in RAKbank?"
+            ],
+            "responses": [
+                "No much hassle required to apply for personal loan in RAKbank, there are quick apporvals and easy documentation process.",
+                "Apply through online and here are some of the perks of applying personal loan in RAKbank, competitive interest rates from 5.49% to 19.99% reducing rate p.a. Apply now and avail an Auto Loan at 2.85% p.a. flat rate (for customers with AECB Score >=651). Loan Processing Fees 1% of Loan Amount (Min AED 500 and Max AED 2,500). Flexible repayment period from 6 to 48 months. Easy does it ! Hassle-free loan takeovers from other banks. FREE RAKBANK Debit Card and personalized cheque book. FREE RAKBANK Credit Card with no annual fee ever and low interest rates. Enjoy up to 2 monthly instalment deferrals per year subject to 6 instalment being repaid against the loan. Offer is valid until further notice"
+            ]
+        },
+        {
+            "tag": "personal loan for UAE nationals",
+            "patterns": [
+                "Personal loan for UAE nationals",
+                "I want to ask about personal loan interest for UAE nationals?",
+                "I want to ask more information for UAE nationals on personal loan."
+            ],
+            "responses": [
+                "For UAE nationals, we provide extra perks as listed here, Interest Rates starting from 4.99% to 19.99% reducing rate p.a. Enjoy up to 120 days deferral period on your 1st EMI deferral period. Apply now and avail an Auto Loan at 2.85% p.a. flat rate (for customers with AECB Score >=651). Flexible repayment periods of up to 60 months for Ministry of Defense employees and 48 months for other customers"
+            ]
+        },
+        {
+            "tag": "mortgage loan",
+            "patterns": [
+                "Personal loan for UAE nationals",
+                "I want to ask about personal loan interest for UAE nationals?",
+                "I want to ask more information for UAE nationals on personal loan."
+            ],
+            "responses": [
+                "For UAE nationals, we provide extra perks as listed here, Interest Rates starting from 4.99% to 19.99% reducing rate p.a. Enjoy up to 120 days deferral period on your 1st EMI deferral period. Apply now and avail an Auto Loan at 2.85% p.a. flat rate (for customers with AECB Score >=651). Flexible repayment periods of up to 60 months for Ministry of Defense employees and 48 months for other customers"
             ]
         }
     ]
