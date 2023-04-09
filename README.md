@@ -55,7 +55,8 @@ With this conversational data - <font color='blue'>intents.json</font>, let kick
   - <b><u>Test with the webapp created by running app.py</u></b>
 
 Sample of chatting (from feedforward neural network):
-![Rakchat Sample](.src/static/images/sample_chat.png)  
+<p align="center"><img width="1000" height="300" src="https://github.com/KewJS/Finance_Chatbot/blob/main/src/static/images/sample_chat.png"></p>
+![Rakchat Sample](.src/static/images/sample_chat.png)
 
 ## 2. Getting Started
 - Prefer to use the `conda` package manager (which ships with the Anaconda distribution of Python),
