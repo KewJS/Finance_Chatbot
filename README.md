@@ -27,20 +27,20 @@ customer_segmentation
 │       └── __init__.py
 |       └── preprocess.py
 |       └── nltk_utls.py
-|       └── utils.py
+|       └── parse_data.py
 |   └── train
 │       └── __init__.py
-│       └── train.py
+│       └── feedforward.py
+│       └── dialog_gpt2.py
 |       └── models.py
-|   └── Config.py
+|   └── config.py
 |   └── app.py
-|   └── gui_app.py
 |   └── chat.py
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
-├── setup.py
-└── tox.ini
+├── Attention_is_All_You_Need.ipynb
+└── DialogGPT_Rakchat.ipynb
 ```
 
 
