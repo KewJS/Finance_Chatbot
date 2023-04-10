@@ -8,7 +8,7 @@ from torch.utils.data import Dataset, DataLoader
 
 from config import Config
 from nltk_utils import tokenize, stem, bag_of_words
-from model import NeuralNet
+from feedforward import NeuralNet
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -95,7 +95,7 @@ for epoch in range(Config.MODELLING_CONFIG["NUM_EPOCHS"]):
         loss.backward()
         optimizer.step()
         
-    if (epoch+1) % 100 == 0:
+    if (epoch+1) % 10 == 0:
         print("Epoch [{}/{}], Loss:{:.4f}".format((epoch+1), Config.MODELLING_CONFIG["NUM_EPOCHS"], loss.item()))
 
 print(f"final loss: loss={loss.item():.4f}")
