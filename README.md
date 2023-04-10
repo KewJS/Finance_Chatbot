@@ -32,6 +32,7 @@ customer_segmentation
 │       └── __init__.py
 │       └── feedforward.py
 │       └── dialog_gpt2.py
+│       └── gpt2.py (working in progress)
 |       └── models.py
 |   └── config.py
 |   └── app.py
