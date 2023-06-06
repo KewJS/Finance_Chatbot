@@ -4,7 +4,6 @@
             "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
             "responses": [
                 "Hey :-)",
-                "Hello, thanks for visiting",
                 "Hi there, what can I do for you?",
                 "Hi there, how can I help?"
             ]
@@ -121,12 +120,61 @@
         {
             "tag": "mortgage loan",
             "patterns": [
-                "Personal loan for UAE nationals",
-                "I want to ask about personal loan interest for UAE nationals?",
-                "I want to ask more information for UAE nationals on personal loan."
+                "Mortgage loan application",
+                "I want to ask about process of applying to mortgage loan service in RAKbank?",
+                "I want to ask more information on mortgage loan application process.",
+                "I want to know more about mortgage loan application process and requirements in RAKbank.",
+                "Can you give me some context about mortgage loan application and requirements in RAKbank?", "What are the perks of applying mortgage loan in RAKbank?"
             ],
             "responses": [
-                "For UAE nationals, we provide extra perks as listed here, Interest Rates starting from 4.99% to 19.99% reducing rate p.a. Enjoy up to 120 days deferral period on your 1st EMI deferral period. Apply now and avail an Auto Loan at 2.85% p.a. flat rate (for customers with AECB Score >=651). Flexible repayment periods of up to 60 months for Ministry of Defense employees and 48 months for other customers"
+                "We have a perfect product for your mortgage loan, called Home In One. It is a Mortgage Facility that pays you interest! It combines your Current Account, Savings and Mortgage in a single, easy-to-manage account with a range of benefits. The more you deposit in your account the less interest you pay.",
+                "3 main features of Home In One, includes reduce your interest, where every deposit you make lowers your Mortgage interest payment. Secondly, you can access your funds anytime, where you can withdraw your available balance at any time, just like any current account. Finally, low cost mortgage, where interest is calculated on your daily balances, reducing the effective rate of interest."
+            ]
+        },
+        {
+            "tag": "Fraud",
+            "patterns": ["CC Fraud",
+                "fraud",
+                "fraud complaint",
+                "freeze my credit card",
+                "block my credit card",
+                "someone has stole my credit card"
+            ],
+            "responses": [
+                "Keep calm customer, we will do all we can to prevent any precious asset from yours to be taken by others. Please call our 24 hours hotline at, +971 42130000 for immediate remediation for stolen/fraud incidents.",
+                "Please provide more information on where, how and what information has been stolen on your credit card? We will act immediately to provide the best resolution to solve this incidents."
+            ]
+        },
+        {
+            "tag": "Auto Loan",
+            "patterns": ["HP",
+                "Hirepurchase",
+                "Autoloan",
+                "Auto",
+                "Car",
+                "Car loan",
+                "hire purchase",
+                "Car Finance",
+                "Car Financing"
+            ],
+            "responses": [
+                "You can check out the following link https://rakbank.ae/wps/portal/retail-banking/loans/personal/rakauto-loan for more information."
+            ]
+        },
+        {
+            "tag": "Credit Card Acquisition",
+            "patterns": ["CC",
+                "credit card",
+                "Islamic CC",
+                "Islamic Credit Cards",
+                "Credit Cards",
+                "Am I eligible for credit card",
+                "cashback cc",
+                "I want to apply for a credit card"
+            ],
+            "responses": [
+                "We have a variety of Credit Cards to choose from. Please go to the following link to learn more https://rakbank.ae/wps/portal/retail-banking/cards"
+
             ]
         }
     ]

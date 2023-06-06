@@ -5,8 +5,8 @@ import random
 import torch
 
 from config import Config
-from model import NeuralNet
-from nltk_utils import bag_of_words, tokenize
+from train.feedforward import NeuralNet
+from preprocess.nltk_utils import bag_of_words, tokenize
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

@@ -1,6 +1,25 @@
 # Data
 docs/
 chatbot_venv/
+/cached
+conversational-datasets/
+/conversational-datasets
+/pytorch-lightning
+pytorch-lightning/
+/runs
+data/
+/data
+data/cached
+data/output
+data/models
+assets/
+/assets
+/src/chat-bot-html-template
+py-packages-.xlsx
+python_test.py
+Squad.ipynb
+
+## Table of contents.txt
 
 # Settings
 # .vscode/
