@@ -12,8 +12,6 @@ data/
 data/cached
 data/output
 data/models
-assets/
-/assets
 /src/chat-bot-html-template
 py-packages-.xlsx
 python_test.py
